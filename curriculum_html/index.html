@@ -3,52 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Hoja de Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Hoja de Vida Jose Gamez</title>
 </head>
 <body>
-    <h1>Información general:</h1>
-    <ul>
-        <li>Nombre y Apellido: Jose Armando Gamez Barahona</li>
-        <li>Email: Gamezbarahonaj@yahoo.com</li>
-        <li>Teléfono: +504 9586-0453</li>
-        <li>Ubicación Actual: Honduras, Francisco Morazan, MDC, Col. Santa Eduvijes</li>
-        <li>GitHub: <a href=https://github.com/Josyar>Mi GitHub</a></li>
-        <li>LinkedIn: <a href=www.linkedin.com/in/josegamezbarahona>Mi LinkedIn</a></li>
-    </ul>
-
-    <h2>Experiencia:</h2>
-    <ul>
-        <li>Nombre de la empresa: Compañia Industrial Lido Pozuelo</li>
-        <li>Cargo: Operario de Produccion</li>
-    </ul>
-
-    <h2>Habilidades Técnicas:</h2>
-    <table>
-        <tr>
-            <td>HTML</td>
-            <td> CSS</td>
-            <td> Javascript</td>
-        </tr>
-    </table>
-
-    <h2>Intereses:</h2>
-    <table>
-        <tr>
-            <td>Aplicaciones móviles</td>
-            <td> Desarrollo de videojuegos</td>
-            <td> Desarrollo de paginas web</td>
-        </tr>
-    </table>
-
-    <h2>Contacto:</h2>
-    <form>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
-
-        <button type="submit">Contactar</button>
-    </form>
+    <div class="container">
+        <div class="ladoIzquierdo">
+            <div class="infoPerfil">
+                <div class="imgPerfil">
+                    <img src="imagenes/perfil.jpg">
+                    </div>
+                    <h2>Jose Gamez<br><span>Desarrollador Web</span></h2>
+                </div>
+                <div class=" infoContacto">
+                    <h3 class="titulo">Información para Contacto</h3>
+                    <ul>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto">gamezbarahonaj@yahoo.com</span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto">+504 95860453</span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto">Tegucigalpa M.D.C., Honduras</span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto"><a
+                                    href="https://www.linkedin.com/in/josegamezbarahona">LinkedIn</a></span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto"><a href="https://github.com/Josyar">GitHub</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infoContacto educacion">
+                    <h3 class="titulo">Escolaridad</h3>
+                    <ul>
+                        <li>
+                            <h5>2002 - 2008</h5>
+                            <h4>Primaria</h4>
+                            <h4>Escuela Alfonzo Guillen Zelaya</h4>
+                        </li>
+                        <li>
+                            <h5>2009 - 2015</h5>
+                            <h4>Secundaria</h4>
+                            <h4>Instituto Augusto Urbina Cruz</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infoContacto idiomas">
+                    <h3 class="titulo">Idiomas</h3>
+                    <ul>
+                        <li>
+                            <span class="texto">Español</span>
+                        </li>
+                        <li>
+                            <span class="texto">Ingles</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ladoDerecho">
+                <div class="infoPersonal">
+                    <h2 class="titulo2">Información Personal</h2>
+                    <p>Soy un joven de 26 años con animos de aprender y deseo de superacion se me da bien el trabajo en equipo y la resolucion de problemas trato en gran medida de tener el control de las cosas cuando se puede y doy el maximo de mi potencial y conocimiento cuando se me requiere</p>
+                </div>
+                <div class="infoPersonal">
+                    <h2 class="titulo2">Experiencia Laboral</h2>
+                    <div class="box">
+                        <div class="tiempoEmpresa">
+                            <h5>2016 - 2021</h5>
+                            <h5>Compañia Industrial "Lido Pozuelo" Bimbo Honduras</h5>
+                        </div>
+                        <div class="texto">
+                            <h4>Operario de Produccion</h4>
+                            <p>Me desempeñe en el area de control de calidad y preparacion de alimentos 
+                                tambien tomando el rol de relevo devido a que laborabamos 12 horas al dia cubria el puesto de mis demas compañeros
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="tiempoEmpresa">
+                            <h5>2023/enero - 2023/marzo</h5>
+                            <h5>Coorporacion Lady Lee</h5>
+                        </div>
+                        <div class="texto">
+                            <h4>Operario de Restaurante</h4>
+                            <p>se me dio la oportunidad de entrenarme en atencion al cliente en el puesto de cajero de autoservicio
+                                poniendo a pueba mi capasidad de trabajar bajo precion y la atencion ante distintos clientes y distintos horarios 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="tiempoEmpresa">
+                            <h5>2023/abril - 2023/junio</h5>
+                            <h5>Mantenimiento propio</h5>
+                        </div>
+                        <div class="texto">
+                            <h4>Mantenimiento general de equipo computacional</h4>
+                            <p>Desarrolle un poco a mayor escala mis capacidades y conocimientos dedicandome individualmente a ofrecer servicio de instalacion y Mantenimiento a equipo computacional, como ser instalacion actualizacion y reparacion de estos mismos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h2 class="titulo2">Habilidades Profesionales</h2>
+                    <div class="box">
+                        <h4>Paquete completo de OFFICE</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="box">
+                        <h4>HTML</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="box">
+                        <h4>CSS</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="box">
+                        <h4>JavaScript</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="contact">
+                        <label for="email">Correo eléctronico</label>
+                        <input type="email" name="email">
+                        <br>
+                        <button type="button">Contactar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>

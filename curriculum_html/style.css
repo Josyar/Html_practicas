@@ -1,0 +1,276 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: "Geologica", serif;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.container {
+
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+/*izquierdo*/
+
+.container .ladoIzquierdo {
+
+    position: relative;
+    background: #03a9f4;
+    padding: 40px;
+
+}
+
+.infoPerfil {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.infoPerfil .imgPerfil {
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.infoPerfil .imgPerfil img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.infoPerfil h2 {
+
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+
+.infoPerfil h2 span {
+
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+
+.infoContacto {
+
+    padding-top: 40px;
+
+}
+
+.titulo {
+
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.infoContacto ul {
+
+    position: relative;
+
+}
+
+.infoContacto ul li {
+
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.infoContacto ul li a {
+
+    text-decoration: none;
+
+}
+
+.infoContacto ul li a:link {
+
+    color: #fff;
+
+}
+
+.infoContacto ul li a:visited {
+
+    color: #fff;
+
+}
+
+.infoContacto ul li a:active {
+
+    color: #fff;
+
+}
+
+.infoContacto ul li .icono {
+
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.infoContacto ul li span {
+
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.infoContacto.educacion {
+
+    margin-top: 40px;
+
+}
+
+.infoContacto.educacion li {
+
+    margin-bottom: 15px;
+
+}
+
+.infoContacto.educacion h5 {
+
+    color: #03a9f4;
+    font-weight: 500;
+
+}
+
+.infoContacto.educacion h4 {
+
+    color: #fff;
+    font-weight: 400;
+
+}
+
+/*derecho*/
+
+.container .ladoDerecho {
+
+    position: relative;
+    background: #fff;
+    padding: 40px;
+
+}
+
+.infoPersonal {
+
+    margin-bottom: 50px;
+
+}
+
+.infoPersonal:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.titulo2 {
+
+    color: #2896F9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+p {
+
+    color: #17202A;
+
+}
+
+.infoPersonal .box {
+
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.infoPersonal .box .tiempoEmpresa {
+
+    min-width: 150px;
+
+}
+
+.infoPersonal .box .tiempoEmpresa h5 {
+
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 600;
+
+}
+
+.infoPersonal .box .texto h4 {
+
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+
+}
+
+.habilidades .box {
+
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.habilidades .box h4 {
+
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+
+}   
